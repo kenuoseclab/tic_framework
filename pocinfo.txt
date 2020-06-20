@@ -1,0 +1,15 @@
+    poc_info = {
+        'id' : 1,
+        'name': 'POC名称',
+        'vulType': 'vul类型',
+        'vulLevel': 'vul等级',
+        'vulDate': '漏洞公布时间',
+        'createDate': '创建时间',
+        'vulNum': ['cve-2020-2551', 'cnvd-2020-111111'],
+        'appName': 'app应用名称',
+        'appPowerLink': '',
+        'appVersion ': ['1.0','2.0'],
+        'desc': '''xxxxxxxxxx''',
+        'protocol': ''
+    }
+    
