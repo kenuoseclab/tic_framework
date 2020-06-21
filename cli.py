@@ -31,7 +31,6 @@ def modulePath():
     This will get us the program's directory, even if we are frozen
     using py2exe
     """
-    
     try:
         _ = sys.executable if weAreFrozen() else __file__
     except NameError:

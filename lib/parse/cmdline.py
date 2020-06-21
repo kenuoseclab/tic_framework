@@ -49,11 +49,11 @@ def cmdLineParser(argv=None):
                 # Mode options
         mode = parser.add_argument_group("Mode", "Pocsuite running mode options")
 
-        mode.add_argument("--check", dest="mode", default='check', action="store_const", const='check',
-                          help="Run poc with check mode")
+        mode.add_argument("--verify", dest="mode", default='verify', action="store_const", const='verify',
+                          help="Run poc with verify mode")
         mode.add_argument("--exploit", dest="mode", action="store_const", const='exploit',
-                          help="Run poc with attack mode")
-
+                          help="Run poc with exploit mode")
+        
          # Requests options
         request = parser.add_argument_group("Request", "Network request options")
         request.add_argument("--cookie", dest="cookie", help="HTTP Cookie header value")

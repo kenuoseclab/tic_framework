@@ -108,8 +108,8 @@ def _set_task_queue():
         err_msg = "no target(s) was added!"
         logger.error(err_msg)
     
-    print(kb.registered_pocs)
-    print(kb.targets)
+    # print(kb.registered_pocs)
+    # print(kb.targets)
     
     if kb.registered_pocs and kb.targets:
         for poc_module in kb.registered_pocs:
