@@ -776,6 +776,10 @@ def task_run():
         
         print(poc_instance.poc_info)
         
+        # print(poc_instance.options)
+
+        # print(poc_instance.options)
+        
         poc_instance.auto_execute(target, mode = conf.mode)
 
 def task_done():

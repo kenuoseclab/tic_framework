@@ -62,3 +62,4 @@ class POC_FAMILY:
     PROTOCOL = AttribDict()
     PROTOCOL.TCP = 'tcp'
     PROTOCOL.HTTP = 'http'
+    PROTOCOL.T3 = 't3'
